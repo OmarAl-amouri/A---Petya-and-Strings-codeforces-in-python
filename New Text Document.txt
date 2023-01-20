@@ -1,0 +1,14 @@
+
+x=str(input())
+y=str(input())
+z=x.lower()
+d=y.lower()
+e=len(z)
+ee=len(d)
+if(e==ee and e<101):
+    if(z>d):
+        print(1)
+    elif(z<d):
+        print(-1)
+    else:
+        print(0
